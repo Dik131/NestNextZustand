@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home(): JSX.Element {
+  const a = 1
   return (
     <>
       <Head>
@@ -109,7 +110,7 @@ export default function Home(): JSX.Element {
               width={16}
               height={16}
             />
-            Go to nextjs.org →
+            Go to {a}→
           </a>
         </footer>
       </div>
